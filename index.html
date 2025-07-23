@@ -28,15 +28,15 @@
     </style>
 </head>
 <body class="text-roboto">
-    <header class="bg-[#FFFBF0] px-[137px] py-[47px] ">
-        <nav class="flex justify-between items-center bg-img">
-            <div class="nav-logo">
+    <header class="bg-[#FFFBF0] p-4 md:px-[137px] md:py-[47px] md:mb-[49px]">
+        <nav class="md:flex justify-between items-center bg-img">
+            <div class="nav-logo flex justify-between">
                 <img class="w-2xs" src="./icons/logo.png" alt="">
-                <img class="ml-[400px] mt-[-160px]" src="./icons/Group 33064.png" alt="">
-            </div>
-            <div class="nav-menu">
+                <img class="hidden md:block ml-[400px] mt-[-160px]" src="./icons/Group 33064.png" alt="">
                 <img class="md:hidden" src="./icons/menu-collpase.png" alt="">
-                <ul class="sm:hidden md:flex justify-between gap-[50px] font-medium text-[#3C3C3C]">
+            </div>
+            <div class="nav-menu flex justify betwween">
+                <ul class="hidden md:flex justify-between gap-[50px] font-medium text-[#3C3C3C]">
                     <li>Home</li>
                     <li>Product</li>
                     <li>About Us</li>
@@ -45,9 +45,9 @@
             </div>
         </nav>
         <!-- Banner Section -->
-        <div class="banner mt-[4rem] flex items-center justify-start gap-[10rem]">
+        <div class="banner mt-[4rem] md:flex items-center justify-start gap-[10rem]">
             <div class="banner-text">
-                <h1 class="text-bebas-neue font-black text-7xl leading-[80px] w-[70%] tracking-[3px] capitalize"><span class="text-primary">Be the Penguins</span> <span class="text-secondary">of Winter</span></h1>
+                <h1 class="text-bebas-neue font-black text-7xl leading-[80px] lg:w-[70%] tracking-[3px] capitalize"><span class="text-primary">Be the Penguins</span> <span class="text-secondary">of Winter</span></h1>
                 <p class="w-[55%] text-[#3E3E3E] mb-[20px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <div class=" btn-cotainer w-[170px] p-[18px] bg-linear-to-r from-[#A4BC46] to-[#85A019] rounded-2xl flex justify-center gap-[5px] leading-[24px] text-white font-medium capitalize">
                     <img class="w-[32px]" src="./icons/shopping-cart 1.png" alt="">
@@ -60,8 +60,52 @@
         </div>
 
     </header>
-    <main>
-
+    <main class="px-5 py-7 md:px-[137px] md:py-[47px] md:mb-[49px]">
+        <!-- Women Jacket -->
+         <section>
+            <div>
+                <h2 class="text-center md:text-left text-5xl text-bebas-neue text-[#363958] mb-[21px] ">Woman Jacket</h2>
+                <div class="item-cards-container grid md:grid-cols-2 lg:grid-cols-3 gap-[30px]">
+                    <div class="item-card-container rounded-[20px] px-[18px] pt-[18px] pb-[23px] shadow-xl">
+                        <img class="bg-[#F1F1F1] px-[20px] py-[22px] rounded-2xl" src="./images/jacket-1.png" alt="">
+                        <h3 class="item-title text-2xl text-secondary font-bold text-[#363958] p-[18px]">Yellow Coat Jacket</h3>
+                        <p class="about-item px-[18px] pb-[21px] leading-[26px]">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+                        <div class="price-buy px-[18px] flex justify-between items-center">
+                            <h4 class="text-primary font-black text-4xl">$234</h4>
+                            <div class=" btn-cotainer w-[170px] p-[18px] bg-linear-to-r from-[#A4BC46] to-[#85A019] rounded-2xl flex justify-center gap-[5px] leading-[24px] text-white font-medium capitalize">
+                            <img class="w-[32px]" src="./icons/shopping-cart 1.png" alt="">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item-card-container rounded-[20px] px-[18px] pt-[18px] pb-[23px] shadow-xl">
+                        <img class="bg-[#F1F1F1] px-[20px] py-[22px] rounded-2xl" src="./images/jacket-2.png" alt="">
+                        <h3 class="item-title text-2xl text-secondary font-bold text-[#363958] p-[18px]">Ladies Jacket </h3>
+                        <p class="about-item px-[18px] pb-[21px] leading-[26px]">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+                        <div class="price-buy px-[18px] flex justify-between items-center">
+                            <h4 class="text-primary font-black text-4xl">$234</h4>
+                            <div class=" btn-cotainer w-[170px] p-[18px] bg-linear-to-r from-[#A4BC46] to-[#85A019] rounded-2xl flex justify-center gap-[5px] leading-[24px] text-white font-medium capitalize">
+                            <img class="w-[32px]" src="./icons/shopping-cart 1.png" alt="">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item-card-container rounded-[20px] px-[18px] pt-[18px] pb-[23px] shadow-xl">
+                        <img class="bg-[#F1F1F1] px-[20px] py-[22px] rounded-2xl" src="./images/jacket-3.png" alt="">
+                        <h3 class="item-title text-2xl text-secondary font-bold text-[#363958] p-[18px]">Woman Leather Jacket </h3>
+                        <p class="about-item px-[18px] pb-[21px] leading-[26px]">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+                        <div class="price-buy px-[18px] flex justify-between items-center">
+                            <h4 class="text-primary font-black text-4xl">$234</h4>
+                            <div class=" btn-cotainer w-[170px] p-[18px] bg-linear-to-r from-[#A4BC46] to-[#85A019] rounded-2xl flex justify-center gap-[5px] leading-[24px] text-white font-medium capitalize">
+                            <img class="w-[32px]" src="./icons/shopping-cart 1.png" alt="">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+         </section>
     </main>
     <footer>
 
